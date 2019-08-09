@@ -34,6 +34,22 @@
                                     <action selector="touchupInsideGetRequestBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="baD-Cw-ILf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZA-TG-uEK">
+                                <rect key="frame" x="57" y="191" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="上传图片"/>
+                                <connections>
+                                    <action selector="upload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RAe-Mq-SdE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9EB-Hp-KHi">
+                                <rect key="frame" x="275" y="191" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="多图上传"/>
+                                <connections>
+                                    <action selector="multiUpload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h7U-Rj-f5q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

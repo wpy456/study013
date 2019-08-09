@@ -15,6 +15,8 @@
 		A07274F122F86852001D9E31 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07274E422F86737001D9E31 /* Alamofire.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		A07274F222F86852001D9E31 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A07274E422F86737001D9E31 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A07274F722F86AD8001D9E31 /* MyNetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07274F622F86AD8001D9E31 /* MyNetworkReachabilityManager.swift */; };
+		A0DA807522FDB2A900E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-07-21 at 21.51.00.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DA806D22FDB2A900E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-07-21 at 21.51.00.png */; };
+		A0DA807722FDB63E00E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-04-11 at 21.23.54.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DA807622FDB63E00E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-04-11 at 21.23.54.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,8 @@
 		A07274D222F86655001D9E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A07274D822F86737001D9E31 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		A07274F622F86AD8001D9E31 /* MyNetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A0DA806D22FDB2A900E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-07-21 at 21.51.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone Xʀ - 2019-07-21 at 21.51.00.png"; path = "../../../Desktop/Simulator Screen Shot - iPhone Xʀ - 2019-07-21 at 21.51.00.png"; sourceTree = "<group>"; };
+		A0DA807622FDB63E00E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-04-11 at 21.23.54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone Xʀ - 2019-04-11 at 21.23.54.png"; path = "../../../Desktop/Simulator Screen Shot - iPhone Xʀ - 2019-04-11 at 21.23.54.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +137,10 @@
 		A07274C522F86654001D9E31 /* study013 */ = {
 			isa = PBXGroup;
 			children = (
+				A0DA807622FDB63E00E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-04-11 at 21.23.54.png */,
 				A07274D822F86737001D9E31 /* Alamofire.xcodeproj */,
 				A07274C622F86654001D9E31 /* AppDelegate.swift */,
+				A0DA806D22FDB2A900E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-07-21 at 21.51.00.png */,
 				A07274C822F86654001D9E31 /* ViewController.swift */,
 				A07274F622F86AD8001D9E31 /* MyNetworkReachabilityManager.swift */,
 				A07274CA22F86654001D9E31 /* Main.storyboard */,
@@ -278,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A07274D122F86655001D9E31 /* LaunchScreen.storyboard in Resources */,
+				A0DA807722FDB63E00E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-04-11 at 21.23.54.png in Resources */,
 				A07274CE22F86655001D9E31 /* Assets.xcassets in Resources */,
+				A0DA807522FDB2A900E28946 /* Simulator Screen Shot - iPhone Xʀ - 2019-07-21 at 21.51.00.png in Resources */,
 				A07274CC22F86654001D9E31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
