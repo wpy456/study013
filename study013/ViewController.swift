@@ -15,26 +15,26 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 //多图上传
-    @IBAction func multiUpload(_ sender: Any) {
-        let fileURL1=Bundle.main.url(forResource: "Simulator Screen Shot - iPhone Xʀ - 2019-04-11 at 21.23.54", withExtension: "png")
-        let fileURL2=Bundle.main.url(forResource: "Simulator Screen Shot - iPhone Xʀ - 2019-07-21 at 21.51.00", withExtension: "png")
-        AF.upload(
-            multipartFormData: {MultipartFormData in
-            MultipartFormData.append(fileURL1!,withName:"file1")
-            MultipartFormData.append(fileURL2!,withName:"file2")
-            
-        }, to: "http://www.lia5.com/api",
-           encodingCompletion:{encodingRestlt in
-            switch encodingRestlt{
-            case .success(let upload,_,_):
-                upload.responseJSON{response in
-                    debugPring(response)
-                }
-            case .failure(let encodingError):
-                print(encodingError)
-            }
-            
-        })
+    @IBAction func multiUpload(_ sender: AnyObject) {
+//        let fileURL1=Bundle.main.url(forResource: "Simulator Screen Shot - iPhone Xʀ - 2019-04-11 at 21.23.54", withExtension: "png")
+//        let fileURL2=Bundle.main.url(forResource: "Simulator Screen Shot - iPhone Xʀ - 2019-07-21 at 21.51.00", withExtension: "png")
+
+//AF.upload(
+//                multipartFormData: { multipartFormData in
+//                    multipartFormData.append(fileURL1!, withName: "unicorn")
+//                    multipartFormData.append(fileURL2!, withName: "rainbow")
+//            } ,to: "https://httpbin.org/post",
+//               encodingCompletion: { encodingResult in
+//                switch encodingResult {
+//                case .success(let upload, _, _):
+//                    upload.responseJSON { response in
+//                        debugPrint(response)
+//                    }
+//                case .failure(let encodingError):
+//                    print(encodingError)
+//                }
+//            }
+//        )
     }
     //上传
     @IBAction func upload(_ sender: Any) {
@@ -62,12 +62,12 @@ class ViewController: UIViewController {
     //get post
     @IBAction func touchupInsideGetRequestBtnAction(_ sender: AnyObject) {
         
-        AF.request("http://1.spbjb.cn/api", method: .post ,parameters: ["way": "init","uid":[1,2,3],"did":["x":1,"y":2]])
+        AF.request("https://api.nahede.com/api", method: .post ,parameters: ["way": "init","uid":[1,2,3],"did":["x":1,"y":2]])
             .responseJSON {
                 response in
-                print("original URL request:\(response.request)")
-                print("URL response:\(response.response)")
-                print("server data:\(response.data)")
+                print("original URL request:\(String(describing: response.request))")
+                print("URL response:\(String(describing: response.response))")
+                print("server data:\(String(describing: response.data))")
                 print("result of response serialization:\(response.result)")
                 
                 
